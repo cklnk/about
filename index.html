@@ -1,89 +1,245 @@
-<!DOCTYPE html>
-<html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="About : about" />
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>陈潇的个人简历</title>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#home" class="current">H<span>ome</span></a></li>
+			<li><a href="#skill">S<span>kill</span></a></li>
+			<li><a href="#about">A<span>bout</span></a></li>
+			<li><a href="#contact">C<span>ontact</span></a></li>
+		</ul>
+	</nav>
+	<section id="cover">
+		<div class="mask" id="mask1"></div>
+		<div class="mask" id="mask2"></div>
+		<div class="content">
+			<h2>求职</h2>
+			<p>php/后端开发</p>
+			<p id="open">我已经在工作了，勿扰！<b>点击进入</b></p>
+		</div>
+	</section>
+	<section id="home">
+		<div class="content">
+			<img id="avatar" src="./img/avatar.png" alt="" width="200" height="200">
+			<div id="info1">
+				<p>来自 山东·淄博</p>
+				<p>年龄 1987年</p>
+				<p>广东科学技术学院 10 级[<b>已毕业</b>]</p>
+				<p>工作年限[<b>10年</b>]</p>
+				<h2>我开源的项目：</h2>
+				<hr>
+				<p>微信主动推送消息项目[<b>https://github.com/ym1623/node_wx</b>]</p>
+				<p>php自动生成文档项目 [<b>https://github.com/ym1623/codeigniter_apidoc</b>]</p>
+			</div>
+			<div class="float-clear"></div>
+			<div id="info2" class="bg-icon">岳蒙</div>
+			<div id="info3">
+				<p>软件工程专业</p>
+				<p>爱好 Coding、Game、Basketball</p>
+			</div>
+		</div>
+	</section>
+	<section id="skill">
+		<div class="content">
+			<p class="page-title">&lt;skill&gt;</p>
+			<div class="cols">
+				<div class="col1">
+					<h2>技能</h2>
+				</div>
+				<div class="col2">
+					<table>
+						<tr>
+							<th>&nbsp;</th>
+							<th>了解</th>
+							<th>熟悉</th>
+							<th>精通</th>
+							<th>神级</th>
+						</tr>
+						<tr>
+							<td>PHP</td>
+							<td colspan="4"><div><span style="width:200px; background-color: #666798;"></span></div></td>
+						</tr>
+						<tr>
+							<td>nodejs</td>
+							<td colspan="4"><div><span style="width:180px; background-color: #71B75C;"></span></div></td>
+						</tr>
+						<tr>
+							<td>jQuery</td>
+							<td colspan="4"><div><span style="width:134px; background-color: #77D0F5;"></span></div></td>
+						</tr>
+						<tr>
+							<td>HTML</td>
+							<td colspan="4"><div><span style="width:184px; background-color: #00BBFE;"></span></div></td>
+						</tr>
+						<tr>
+							<td>CSS</td>
+							<td colspan="4"><div><span style="width:200px; background-color: #00BD00;"></span></div></td>
+						</tr>
+						<tr>
+							<td>JavaScript</td>
+							<td colspan="4"><div><span style="width:114px; background-color: #AAA;"></span></div></td>
+						</tr>
+						<tr>
+							<td>手写代码</td>
+							<td colspan="4"><div><span style="width:200px; background-color: #00A9FF;"></span></div></td>
+						</tr>
+						<tr>
+							<td>Linux</td>
+							<td colspan="4"><div><span style="width:95px; background-color: #87D03E;"></span></div></td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<th>&nbsp;</th>
+							<th>了解</th>
+							<th>熟悉</th>
+							<th>精通</th>
+							<th>神级</th>
+						</tr>
+						<tr>
+							<td>MySQL</td>
+							<td colspan="4"><div><span style="width:200px; background-color: #00A9FF;"></span></div></td>
+						</tr>
+						<tr>
+							<td>Mongodb</td>
+							<td colspan="4"><div><span style="width:90px; background-color: #87D03E;"></span></div></td>
+						</tr>
+						<tr>
+							<td>Redis</td>
+							<td colspan="4"><div><span style="width:112px; background-color: #87D03E;"></span></div></td>
+						</tr>
+						<tr>
+							<td>Memcached</td>
+							<td colspan="4"><div><span style="width:132px; background-color: #87D03E;"></span></div></td>
+						</tr>
+						<tr>
+							<td>tokyotrant</td>
+							<td colspan="4"><div><span style="width:58px; background-color: #87D03E;"></span></div></td>
+						</tr>
+					</table>
+				</div>
+				<div class="col3">
+					<section>
+						<h3>php后端开发</h3>
+						<p>精通PHP基于RestFul API开发</p>
+						<p>精通PHP OOP、MV*开发</p>
+						<p>有二次开发codeigniter, Shopex, ecmall, drupal经验</p>
+						<p>熟悉PHP加速 xcache、eaccelerator、APC </p>
+						<p>熟悉memcached、tokyotyrant、varnish等缓存</p>
+						<p>熟悉 pyrocms, smarty及相关类库开发</p>
+						<p>熟悉  nodejs+Backbone.js+undersorce.js+socket.io </p>
+						<p>熟悉Linux命令，熟悉Linux环境下编程</p>
+						<p>有大数据采集分析经验，熟悉solr搜索引擎，
+							在后台开发过大型API接口（手机端和Web端）</p>
+					</section>
+					<section>
+						<h3>前端掌握技能</h3>
+						<p>深入了解过 Bootstrap</p>
+						<p>100% 手写代码（正在使用 e+SublimeText2+Vim）</p>
+						<p>熟悉 Linux 开发环境和基本应用</p>
+						<p>熟悉javascript 框架（Backbone, JQuery）Ajax, xajax,javascript(JQuery,extjs),XML</p>
+					</section>
+<!-- 					<section>
+						<h3>近期目标</h3>
+						<p>学习分布式部署及应用</p>
+						<p>深入学习python, shell</p>
+						<p>学习Larveal</p>
+					</section> -->
+				</div>
+				<div class="float-clear"></div>
+			</div>
+			<p class="page-title">&lt;skill/&gt;</p>
+		</div>
+	</section>
+	<section id="about">
+		<div class="content">
+			<p class="page-title">&lt;about&gt;</p>
+			<div class="rows">
+				<div class="row1">
+					<h2>个人</h2>
+					<section>
+						<h3>经历</h3>
+						<p>历任：</p>
+						<p>软件工程师</p>
+						<p>进行相关高尔夫运营管理软件，练习场系统，餐饮系统及各类网站的开发，数据挖掘，基于restful api标准的接口开发,solr搜索引擎部署，电子商务（B2C,O2O,C2C）二次开发</p>
+						<p>出差去过辽宁（沈阳，大连，营口），北京，广西桂林进行培训工作</p>
+						<p>带领过3人小团队进行协作开发</p>
+					</section>
+					<section>
+						<h3>经验</h3>
+						<p>亿威集团珠海赢众有限公司[<b>2010-07-28 至 2011-01-10</b>]</p>
+						<p>进行相关高尔夫运营管理软件，练习场系统，餐饮系统及各类网站的开发</p>
+						<p>珠海易研科技有限公司[<b>2011-04-01 至 2013-04-01</b>]</p>
+						<p>负责后台api开发及采集程序开发.
+采集：（视频，新闻，报刊，杂志，论坛，博客，Facebook, 微博，海外中文媒体及其他专题采集等等）
+</p>
+						<p>后台API: Nodejs+express+oauth2 RestFul Api</p>
+						<p>广东爱婴岛儿童百货有限公司[<b>2013-04-28 至 2014-04-01</b>]</p>
+						<p>电子商务O2O(对shopex后台进行二次开发，对商城前台进行改版.) www.baby.com.cn</p>
+						<p>电子商务C2C Ecmall二次开发(七彩高原网)  http://www.7cgy.com</p>
+					</section>
+					<section>
+						<h3>其他开发项目：</h3>
+						<p>http://www.dpmacao.org[<b>商議式民意調查</b>]</p>
+						<p>http://202.175.189.115/ers_survey/home/public/#survey[<b>ERS调查系统</b>]</p>
+						<p>http://apira2012.macaointernetproject.net[<b>亚太地区互联网研究联盟</b>]</p>
+						<p>http://ecjob.e-research-solutions.com[<b>Ecjob调查人员考勤系统</b>]</p>
+						<p>http://www.e-research-solutions.com[<b>易研方案官网</b>]</p>
+						<p>http://kpop.e-research-solutions.com[<b>KPOP信息平台</b>]</p>
+						<p>http://www.macaointernetproject.net[<b>澳门互联网计划</b>]</p>
+						<p>http://im.e-research-solutions.com[<b>澳门大学图书室</b>]</p>
+						<p>http://ecomm.e-research-solutions.com[<b>易研传播平台</b>]</p>
+						<p>http://eaccount.e-research-solutions.com[<b>用户管理系统</b>]</p>
+					</section>
+					<section>
+						<h3>自我评价</h3>
+						<p>喜欢geek. 对待同事和工作总结的一句话：互动，分享，承担</p>
+						<p>爱学习，经常探索新的技术和工具</p>
+						<p>喜欢交流和分享（常用名 ym1623)</p>
+						<p>github地址: https://github.com/ym1623</p>
+						<p>nodejs中文社区 地址：http://cnodejs.org/user/ym1623</p>
+					</section>
+					<div class="float-clear"></div>
+				</div>
+				<div class="row2">
+					<section>
+						<h3>期望公司</h3>
+						<p>php后端开发工程师</p>
+						<p>php技术/项目经理</p>
+					</section>
+					<div class="float-clear"></div>
+				</div>
+			</div>
+			<p class="page-title">&lt;about/&gt;</p>
+		</div>
+	</section>
+	<section id="contact">
+		<h3>Contact me</h3>
+		<ul>
+			<li class="bg-icon weibo"><a href="http://weibo.com/ym1623" target="_blank">ym1623</a></li>
+			<li class="bg-icon github"><a href="https://github.com/ym1623" target="_blank">ym1623</a></li>
+			<li class="bg-icon email">i removed it</li>
+			<li class="bg-icon phone">i removed it</li>
+		</ul>
+	</section>
+	<script src="./js/h.js"></script>
+	<script src="./js/main.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	  ga('create', 'UA-34091460-1', 'ym1623.github.io');
+	  ga('send', 'pageview');
 
-    <title>About</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/cklnk/about">View on GitHub</a>
-
-          <h1 id="project_title">About</h1>
-          <h2 id="project_tagline">about</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/cklnk/about/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/cklnk/about/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">About maintained by <a href="https://github.com/cklnk">cklnk</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("reniel");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-
-  </body>
+	</script>
+</body>
 </html>
